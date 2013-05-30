@@ -19,15 +19,14 @@
  
 
 /*
+	Scrollbars für Webkit-Browser anpassen
 	http://css-tricks.com/custom-scrollbars-in-webkit/
 */	
-
 
 ::-webkit-scrollbar {
 	width: 20px;
 	background-color: rgba(255, 255, 255, .1);
 }
-
 
 ::-webkit-scrollbar-thumb {
 	border: 1px solid rgba(255, 255, 255, .25);
@@ -37,8 +36,6 @@
  
  
 /* Userdefinierte Anpassungen des Webfronts */
-/* Folgende Zeile in der webfront/data/ips.webFront.DefaultView.php ca. Zeile 83 einfügen */
-/* <link href="user/webfrontuser.css" rel="stylesheet" type="text/css" /> */
 
 /* Hauptschriftgröße */
 body {
