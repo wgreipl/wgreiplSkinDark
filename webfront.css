@@ -1,0 +1,151 @@
+/* Minimale Breite der Buttons. Zentrierte Ausrichtung der Schrift */
+.ipsCategory > .container .content .rightSide > .enum > div, 
+.ipsCategory > .container .content .rightSide > .selector > div, 
+.ipsCategory > .container .extended > .textBox > div {
+	min-width: 50px;
+	text-align: center; 
+}
+
+.ipsWebFront {
+	background-color: #555555;
+}
+
+.ipsTabPane .navigation {
+	background-color: #111111;
+}
+
+.ipsNotifications > .ipsNotification > .message > .error {
+  color: transparent; }
+ 
+
+/*
+	http://css-tricks.com/custom-scrollbars-in-webkit/
+*/	
+
+
+::-webkit-scrollbar {
+	width: 20px;
+	background-color: rgba(255, 255, 255, .1);
+}
+
+
+::-webkit-scrollbar-thumb {
+	border: 1px solid rgba(255, 255, 255, .25);
+	background-color: rgba(0, 0, 0, .05);
+}
+
+ 
+ 
+/* Userdefinierte Anpassungen des Webfronts */
+/* Folgende Zeile in der webfront/data/ips.webFront.DefaultView.php ca. Zeile 83 einfügen */
+/* <link href="user/webfrontuser.css" rel="stylesheet" type="text/css" /> */
+
+/* Hauptschriftgröße */
+body {
+	background:#0A101A;
+	color:#fff;
+	font-size:14px;
+	font-family:arial,sans-serif;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+} 
+
+/* Schriftgröße SplitPlane */
+.ipsTabPane > .navigation > .scrollArea > .buttons > div {
+	display:inline-block;
+	border-color:rgba(255,255,255,0.2);
+	border-style:solid;
+	border-width:0 0 0 1px;
+	font-size:15px;
+	line-height:32px;
+	height:32px;
+	margin:0;
+	opacity:.5;
+	padding:0 20px;
+	position:relative
+} 
+
+/* Schriftgröße Category */
+.ipsCategory .hierarchy > .categoryNavigation > .scrollArea > .buttons > div {
+	display:inline-block;
+	vertical-align:top;
+	border-color:rgba(255,255,255,0.2);
+	border-style:solid;
+	border-width:0 0 0 1px;
+	font-size:15px;
+	line-height:32px;
+	margin:2px 0 2px -2px;
+	opacity:.5;
+	padding:0 17px;
+	position:relative
+} 
+
+/* Dialogbox Hintergrundfarbe */
+.ipsDialog > div {
+	position:absolute;
+	background:rgba(25,38,51,0.9);
+	text-align:center;
+	padding:35px 60px;
+	font-size:15px;
+	font-face:FuturaTEELig,verdana;
+	border-radius:6px;
+	z-index:101
+} 
+
+/* DWD Überschrift */
+.ipsDWD > .report .title {
+	font-family:'Arial Narrow',arial,sans-serif;
+	font-size:17px;
+	padding:10px 10px 0
+}
+
+/* DWD Text */
+.ipsDWD > .report .text {
+	font-size:13px;
+	padding:10px 10px 0
+} 
+
+/* DWD Copyright */
+.ipsDWD > .report .copyright {
+	font-size:11px;
+	padding:10px
+} 
+
+/* DWD Menü */
+.ipsDWD > .navigation > .scrollArea > .buttons > div {
+	display:inline-block;
+	vertical-align:top;
+	border-color:rgba(255,255,255,0.2);
+	border-style:solid;
+	border-width:0 0 0 1px;
+	font-size:15px;
+	line-height:32px;
+	margin:2px 0 2px -2px;
+	opacity:.5;
+	padding:0 17px;
+	position:relative
+} 
+
+/* Scrollbar rechts */
+.ipsScrollPane > .navigation {
+	display:none;
+	bottom:0;
+	position:absolute;
+	right:0;
+	top:0;
+	width:30px
+} 
+
+/* Graphensymbol ausblenden */
+.ipsCategory>.container .content .rightSide>.graphLink {
+	display: none;
+}
+
+.ipsDWDReport .text {
+	font-size: 12px;
+}
+
+.ipsDWDReport .title {
+	font-size: 17px;
+}
