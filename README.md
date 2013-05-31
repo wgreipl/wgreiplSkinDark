@@ -5,6 +5,8 @@ wgreiplSkinDark
 
 •Icons: keine (Original-Icons werden geladen)
 
+•Icon-Padding: 10px (Für mehr Icons in Split- und TabPane)
+
 •Farbton: Dunkelgrau
 
 •Schriftgröße: 14px
