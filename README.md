@@ -3,7 +3,7 @@ wgreiplSkinDark
 
 •Größe: 4kB
 
-•Icons: keine (Original-Icons werden geladen)
+•Icons: Camera.png (Rest: Original-Icons werden geladen)
 
 •Icon-Padding: 10px (Für mehr Icons in Split- und TabPane)
 
