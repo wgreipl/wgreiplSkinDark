@@ -19,7 +19,7 @@
  
 
 /*
-	Scrollbars für Webkit-Browser anpassen
+	Scrollbars fï¿½r Webkit-Browser anpassen
 	http://css-tricks.com/custom-scrollbars-in-webkit/
 */	
 
@@ -37,7 +37,7 @@
  
 /* Userdefinierte Anpassungen des Webfronts */
 
-/* Hauptschriftgröße */
+/* Hauptschriftgrï¿½ï¿½e */
 body {
 	background:#0A101A;
 	color:#fff;
@@ -48,7 +48,7 @@ body {
 	overflow:hidden;
 } 
 
-/* Schriftgröße SplitPlane */
+/* Schriftgrï¿½ï¿½e SplitPlane */
 .ipsTabPane > .navigation > .scrollArea > .buttons > div {
 	display:inline-block;
 	border-color:rgba(255,255,255,0.2);
@@ -63,7 +63,7 @@ body {
 	position:relative
 } 
 
-/* Schriftgröße Category */
+/* Schriftgrï¿½ï¿½e Category */
 .ipsCategory .hierarchy > .categoryNavigation > .scrollArea > .buttons > div {
 	display:inline-block;
 	vertical-align:top;
@@ -81,7 +81,7 @@ body {
 /* Dialogbox Hintergrundfarbe */
 .ipsDialog > div {
 	position:absolute;
-	background:rgba(25,38,51,0.9);
+	background:rgba(0,0,0,0.8);
 	text-align:center;
 	padding:35px 60px;
 	font-size:15px;
@@ -90,7 +90,7 @@ body {
 	z-index:101
 } 
 
-/* DWD Überschrift */
+/* DWD ï¿½berschrift */
 .ipsDWD > .report .title {
 	font-family:'Arial Narrow',arial,sans-serif;
 	font-size:17px;
@@ -109,7 +109,7 @@ body {
 	padding:10px
 } 
 
-/* DWD Menü */
+/* DWD Menï¿½ */
 .ipsDWD > .navigation > .scrollArea > .buttons > div {
 	display:inline-block;
 	vertical-align:top;
