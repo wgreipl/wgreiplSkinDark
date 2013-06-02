@@ -17,4 +17,7 @@ wgreiplSkinDark
 
 •Scrollbar für Webkit-Brwoser eingebunden
 
+•Graph-Symbol neben Variable ausgeblendet
+
+
 
