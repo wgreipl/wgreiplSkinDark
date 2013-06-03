@@ -49,7 +49,7 @@ body {
 } 
 
 /* Schriftgr��e SplitPlane */
-.ipsTabPane > .navigation > .scrollArea > .buttons > div {
+.ipsTabPane>.navigation>.scroll>.buttons>div {
 	display:inline-block;
 	border-color:rgba(255,255,255,0.2);
 	border-style:solid;
@@ -63,20 +63,6 @@ body {
 	position:relative
 } 
 
-/* Schriftgr��e Category */
-.ipsCategory .hierarchy > .categoryNavigation > .scrollArea > .buttons > div {
-	display:inline-block;
-	vertical-align:top;
-	border-color:rgba(255,255,255,0.2);
-	border-style:solid;
-	border-width:0 0 0 1px;
-	font-size:15px;
-	line-height:32px;
-	margin:2px 0 2px -2px;
-	opacity:.5;
-	padding:0 10px;
-	position:relative
-} 
 
 /* Dialogbox Hintergrundfarbe */
 .ipsDialog > div {
