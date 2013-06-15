@@ -6,6 +6,13 @@
 	text-align: center; 
 }
 
+/* Minimale Breite der Buttons bei Profil ohne Aktionsskript */
+.ipsCategory>.container .content .rightSide>.text.colored {
+	min-width: 80px;
+	text-align: center; 
+}
+
+
 .ipsWebFront {
 	background-color: #555555;
 }
