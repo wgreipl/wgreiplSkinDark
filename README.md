@@ -11,7 +11,9 @@ wgreiplSkinDark
 
 •Schriftgröße: 14px
 
-•Buttons haben eine Mindestbreite von 50px
+•Buttons mit Profil und Action haben eine Mindestbreite von 50px
+
+•Buttons mit Profil ohne Action haben eine Mindestbreite von 80px
 
 •Text in Buttons wird mittig zentriert
 
