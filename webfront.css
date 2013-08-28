@@ -128,7 +128,7 @@ body {
 } 
 
 /* Graphensymbol ausblenden */
-.ipsCategory>.container .content .rightSide>.graphLink {
+.ipsCategory>.container .content .rightSide>.chartLink {
 	display: none;
 }
 
