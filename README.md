@@ -1,4 +1,4 @@
-wgreiplSkinDark (Version: 20130828)
+wgreiplSkinDark (Version: 20130904)
 ===============
 
 •Größe: 4kB
@@ -19,7 +19,10 @@ wgreiplSkinDark (Version: 20130828)
 
 •Scrollbar für Webkit-Brwoser eingebunden
 
-•Graph-Symbol neben Variable ausgeblendet
+•Graph-Symbol neben Variable ausgeblendet (Update)
+
+•Buttons im Windows8-Style (bei nichtgefallen auskommentieren)
+
 
 
 
