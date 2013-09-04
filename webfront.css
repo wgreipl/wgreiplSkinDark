@@ -1,13 +1,22 @@
 /* Minimale Breite der Buttons. Zentrierte Ausrichtung der Schrift */
-.ipsCategory > .container .content .rightSide > .enum > div, 
-.ipsCategory > .container .content .rightSide > .selector > div, 
 .ipsCategory > .container .extended > .textBox > div {
 	min-width: 50px;
 	text-align: center; 
 }
 
+.ipsCategory > .container .content .visual > .enum > div {
+	min-width: 10px;
+	text-align: center; 
+}
+
+.ipsCategory > .container .content .visual > .selector > div {
+	min-width: 15px;
+	text-align: center; 
+}
+
+
 /* Minimale Breite der Buttons bei Profil ohne Aktionsskript */
-.ipsCategory>.container .content .rightSide>.text.colored {
+.ipsCategory>.container .content .visual > .text.colored {
 	min-width: 80px;
 	text-align: center; 
 }
@@ -128,7 +137,7 @@ body {
 } 
 
 /* Graphensymbol ausblenden */
-.ipsCategory>.container .content .rightSide>.chartLink {
+.ipsCategory > .container .content .link > .chartLink {
 	display: none;
 }
 
@@ -139,3 +148,18 @@ body {
 .ipsDWDReport .title {
 	font-size: 17px;
 }
+
+
+/* Buttons im Windows8-Style */
+.ipsCategory > .container .content .visual > .text.colored,
+.ipsCategory > .container .content .visual > .enum > div, 
+.ipsCategory > .container .content .visual > .selector > div, 
+.ipsCategory > .container .extended > .textBox > div {
+	background-image: none;
+	padding: 0 10;
+	border-width: 0 0;
+	margin-left: 0px;
+	line-height: 35px;
+	min-height: 35px;
+}
+
