@@ -163,3 +163,8 @@ body {
 	min-height: 35px;
 }
 
+.ipsCategory > .container .content .visual > .enum,
+.ipsCategory > .container .content .visual > .selector {
+	padding: 0;
+}
+
