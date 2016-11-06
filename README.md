@@ -1,4 +1,4 @@
-wgreiplSkinDark (Version: 20130904)
+wgreiplSkinDark (Version: 20161106)
 ===============
 
 •Größe: 4kB
@@ -19,9 +19,11 @@ wgreiplSkinDark (Version: 20130904)
 
 •Scrollbar für Webkit-Brwoser eingebunden
 
-•Graph-Symbol neben Variable ausgeblendet (Update)
-
 •Buttons im Windows8-Style (bei nichtgefallen auskommentieren)
+
+•Start-Logo von IPS nach greipl IT-systeme geändert
+
+•Hintergrundfarbe Startseite an Skin angepasst (#555555)
 
 
 
