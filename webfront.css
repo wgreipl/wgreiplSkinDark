@@ -10,7 +10,7 @@
 }
 
 .ipsCategory > .container .content .visual > .selector > div {
-	min-width: 15px;
+	min-width: 25px;
 	text-align: center; 
 }
 
@@ -18,15 +18,32 @@
 /* Minimale Breite der Buttons bei Profil ohne Aktionsskript */
 .ipsCategory>.container .content .visual > .text.colored {
 	min-width: 80px;
-	text-align: center; 
+	text-align: center;
 }
 
+.ipsCategory > .container .content .visual > .enum, 
+.ipsCategory > .container .content .visual > .selector {
+    height: 36px;
+    overflow: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
 
+/* Logo austauschen */
+
+.ipsLogin > .logo {
+	background-image: url(logo.svg);
+}
+
+/* Farbe ändern */
+
+.ipsLogin,
 .ipsWebFront {
 	background-color: #555555;
 }
 
-.ipsTabPane .navigation {
+.ipsTabPane .navigation, 
+.ipsContentChanger > .navigation {
 	background-color: #111111;
 }
 
@@ -35,7 +52,7 @@
  
 
 /*
-	Scrollbars f�r Webkit-Browser anpassen
+	Scrollbars für Webkit-Browser anpassen
 	http://css-tricks.com/custom-scrollbars-in-webkit/
 */	
 
@@ -57,14 +74,14 @@
 body {
 	background:#0A101A;
 	color:#fff;
-	font-size:14px;
+	font-size:15px;
 	font-family:arial,sans-serif;
 	margin:0;
 	padding:0;
-	overflow:hidden;
+	overflow: hidden;
 } 
 
-/* Schriftgr��e SplitPlane */
+/* Schriftgröße SplitPlane */
 .ipsTabPane>.navigation>.scroll>.buttons>div {
 	display:inline-block;
 	border-color:rgba(255,255,255,0.2);
@@ -92,7 +109,7 @@ body {
 	z-index:101
 } 
 
-/* DWD �berschrift */
+/* DWD Überschrift */
 .ipsDWD > .report .title {
 	font-family:'Arial Narrow',arial,sans-serif;
 	font-size:17px;
@@ -111,7 +128,7 @@ body {
 	padding:10px
 } 
 
-/* DWD Men� */
+/* DWD Menü */
 .ipsDWD > .navigation > .scrollArea > .buttons > div {
 	display:inline-block;
 	vertical-align:top;
@@ -126,6 +143,14 @@ body {
 	position:relative
 } 
 
+.ipsDWDReport .text {
+	font-size: 12px;
+}
+
+.ipsDWDReport .title {
+	font-size: 17px;
+}
+
 /* Scrollbar rechts */
 .ipsScrollPane > .navigation {
 	display:none;
@@ -135,20 +160,6 @@ body {
 	top:0;
 	width:30px
 } 
-
-/* Graphensymbol ausblenden */
-.ipsCategory > .container .content .link > .chartLink {
-	display: none;
-}
-
-.ipsDWDReport .text {
-	font-size: 12px;
-}
-
-.ipsDWDReport .title {
-	font-size: 17px;
-}
-
 
 /* Buttons im Windows8-Style */
 .ipsCategory > .container .content .visual > .text.colored,
@@ -160,11 +171,10 @@ body {
 	border-width: 0 0;
 	margin-left: 0px;
 	line-height: 35px;
-	min-height: 35px;
 }
 
-.ipsCategory > .container .content .visual > .enum,
-.ipsCategory > .container .content .visual > .selector {
-	padding: 0;
+/* Graphensymbol ausblenden 
+.ipsCategory > .container .content .link > .chartLink {
+	display: none;
 }
-
+*/
